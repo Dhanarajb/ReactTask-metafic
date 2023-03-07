@@ -1,3 +1,5 @@
 # ReactTask-metafic
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-l5mpbx)
+```
+https://login-1670c.firebaseapp.com/?060479
+```
