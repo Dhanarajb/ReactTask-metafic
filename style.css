@@ -1,0 +1,102 @@
+body {
+  background-image: radial-gradient(
+    circle,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: rgba(75, 43, 138, 1);
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(75, 43, 138, 1),
+    rgba(69, 201, 202, 1)
+  );
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(75, 43, 138, 1),
+    rgba(69, 201, 202, 1)
+  );
+  background: linear-gradient(
+    to top,
+    rgba(75, 43, 138, 1),
+    rgba(69, 201, 202, 1)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15rem;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  scale: 1.1;
+}
+
+.card img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+}
+
+.form {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form input {
+  outline: none;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.form button {
+  font-size: 1.3rem;
+  width: 10rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.form button:not(:disabled):hover {
+  scale: 1.1;
+  background: rgb(161, 161, 161);
+  color: #fff;
+}
+
+.form button:not(:disabled):active {
+  scale: 0.8;
+  background: #ccc;
+  color: #000;
+}
+
+.form button:disabled {
+  pointer-events: none;
+}
